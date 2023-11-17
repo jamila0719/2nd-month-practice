@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.conatiner{
+    width: 1440px;
+    margin: 0 auto;
+}
+/* header stared */
+/* navbar started */
+.conatiner .navbar{
+    display: flex;
+    margin-top: 13px;
+    
+}
+.conatiner .navbar img{
+    width: 44px;
+    height: 43px;
+    margin-top: 31px;
+    margin-left: 150px;
+}
+.conatiner .navbar ul{
+    display: flex;
+    gap: 41px;
+   margin-left: 35px;
+   margin-top: 43px;
+}
+.conatiner .navbar ul li a{
+    color: var(--BLACK, #150C01);
+    font-family: Roboto;
+    font-size: 16px;
+    opacity: 0.6;
+}
+.conatiner .navbar ul li a:hover{
+    color:  #DC780B;
+}
+.conatiner .navbar button:active{
+    
+    color: #DC780B;
+    background-color: #FFF;
+    border: 1.5px solid #DC780B
+}
+.conatiner .navbar button{
+    width: 155px;
+    height: 46px;
+    border-radius: 5px;
+    background: var(--PRIMARY, #DC780B);
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 458px;
+    border: none;
+}
+/* navbar ended */
+.conatiner .goodFood{
+    margin-top: 173px;
+    margin-left: 150px;
+    display: flex;
+}
+.conatiner .goodFood .food_text h1{
+    color: var(--BLACK, #150C01);
+    font-family: Philosopher;
+    font-size: 48.83px;
+    width: 555px;
+    height: 161px;
+  
+}
+.conatiner .goodFood .food_text p{
+    color: var(--BLACK, #150C01);
+   font-family: Roboto;
+   font-size: 16px;
+   margin-top: 42px;
+   opacity: 0.7;
+   width: 555px;
+   height: 43px;
+
+}
+.conatiner .goodFood .food_text .food_btn{
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.conatiner .goodFood .food_text .food_btn button:active{
+    border: 1.5px solid #DC780B;
+    opacity: 0.1;
+    color: #DC780B;
+
+    
+}
+
+.conatiner .goodFood .food_text .food_btn button{
+    width: 158px;
+    height: 60px;
+    border-radius: 5px;
+    background: #DC780B;
+    color: #FFF;
+    border: none;
+    font-family: Roboto;
+    font-size: 16px;
+}
+.conatiner .goodFood .goodFood_img{
+    width: 801px;
+    height: 670px;
+    margin-top: -150px;
+}
+/* header ended */
+
+/* first section started */
+
+.conatiner .features .features_title{
+     text-align: center;
+     margin-top: 115px;
+}
+.conatiner .features .features_title p {
+    color: #DC780B;
+   
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.conatiner .features .features_title h2{
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    text-transform: capitalize;
+    margin-top: 7px;
+}
+.conatiner .features .features_info{
+    display: flex;
+    margin-top: 44px;
+    margin-left: 150px;
+}
+.conatiner .features .features_info .first_info .featurse_img{
+    background-image: url(./image/background.svg);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    padding-top: 22px;
+    margin-left: 120px;
+}
+.conatiner .features .features_info .first_info h3{
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 25px;
+    margin-top: 33px;
+    margin-left: 100px;
+}
+.conatiner .features .features_info .first_info p{
+    color: #150C01;
+    margin-left: 95px;
+    font-family: Roboto;
+    font-size: 16px;
+    opacity: 0.7;
+    padding-top: 15px;
+    width: 300px;
+   height: 68px;
+    
+}
+/* first section ended */
+
+/* second section started */
+ .aboutUs {
+    display: flex;
+}
+.conatiner .aboutUs img{
+    border-radius: 25px;
+    margin-left: 150px;
+    margin-top: 100px;
+   
+}
+.conatiner .aboutUs .aboutUs_text{
+    margin-top: 216px;
+}
+.conatiner .aboutUs .aboutUs_text h3{
+    color: #DC780B;
+font-family: Roboto;
+font-size: 16px;
+letter-spacing: 3.2px;
+text-transform: uppercase;
+ margin-left: 80px;
+}
+.conatiner .aboutUs .aboutUs_text h2{
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    margin-left: 80px;
+    padding-top: 10px;
+    width: 487px;
+    height: 112px;
+}
+.conatiner .aboutUs .aboutUs_text p{
+    color: #150C01;
+    font-family: Roboto;
+    font-size: 16px;
+    opacity: 0.7;
+    margin-left: 80px;
+    padding-top: 30px;
+    width: 487px;
+    height: 76px;
+}
+.conatiner .aboutUs .aboutUs_text button{
+    width: 142px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #DC780B;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    border: none;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.conatiner .aboutUs .aboutUs_text button:active{
+    background-color: #FFF;
+    border: #DC780B;
+    color: #DC780B;
+}
+/* second section ended */
+
+/* third section started */
+.conatiner .menu{
+    margin-top: 44px;
+    margin-left: 150px;
+}
+
+.conatiner .menu .menu_text h3{
+    color: #DC780B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.conatiner .menu .menu_text h2{
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    text-align: center;
+    padding-top: 10px;
+}
+.conatiner .menu .menu_text p{
+width: 748px;
+height: 64px;
+text-align: center;
+color: #150C01;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+opacity: 0.7;
+padding-top: 25px;
+margin-left: 210px;
+}
+.conatiner .menu .eats_menu{
+    margin-top: 32px;
+    margin-left: 22px;
+}
+.conatiner .menu .eats_menu img{
+    border-radius: 55px 15px 55px 0px;
+}
+.conatiner .menu .eats_menu .big_menu{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+.conatiner .menu .eats_menu .firts_eat{
+    width: 365px;
+    height: 446px;
+    border-radius: 80px 15px 15px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+
+.conatiner .menu .eats_menu .firts_eat .price{
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 25px;
+    margin-left: 25px;
+    padding-top: 7px;
+}
+.conatiner .menu .eats_menu .firts_eat p{
+    color: #150C01; 
+   font-family: Roboto;
+   font-size: 16px;
+   opacity: 0.7;
+   margin-left: 25px;
+   padding-top: 20px;
+}
+.conatiner .menu .eats_menu .firts_eat .menu_img{
+    display: flex;
+    margin-top: 10px;
+}
+
+.conatiner .menu .eats_menu .firts_eat .menu_img .plus img{
+    border-radius: 5px 5px;
+    margin-left: 25px;
+}
+.conatiner .menu .eats_menu .firts_eat .menu_img .stars{
+    margin-top: 10px;
+    margin-left: 186px;
+}
+.learnMore button{
+    width: 142px;
+height: 42px;
+border-radius: 5px;
+border: 1px solid #DC780B;
+color: #DC780B;
+font-family: Roboto;
+font-size: 16px;
+margin-top: 200px;
+margin-left: 649px;
+}
+.learnMore button:active{
+    background-color:#DC780B;
+    color: #FFF;
+    border: 1px solid #DC780B;
+}
+
+/* third section ended */
+
+/* fourth setion started */
+.conatiner .takeAway{
+    display: flex;
+    margin-top: 114px;
+    margin-left: 247px;
+
+}
+.conatiner .takeAway .takeAway_text{
+    margin-top: 200px
+}
+.conatiner .takeAway .takeAway_text h3{
+    color: #DC780B;
+   font-family: Roboto;
+   font-size: 16px;
+   text-transform: uppercase;
+}
+.conatiner .takeAway .takeAway_text h2{
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    padding-top: 5px;
+}
+.conatiner .takeAway .takeAway_text p{
+    color: #150C01;
+    font-family: Roboto;
+    font-size: 16px;
+    opacity: 0.7;
+    padding-top: 29px;
+}
+.conatiner .takeAway .saveLogo{
+    margin-top: 39px;   
+}
+.conatiner .takeAway .saveLogo .app:active{
+    box-shadow: 5px 5px 5px 5px rgb(39, 38, 38);
+}
+.conatiner .takeAway .saveLogo .pley:active{
+   box-shadow: 5px 5px 5px 5px darkgray;
+}
+.conatiner .takeAway .saveLogo .pley{
+    margin-left: 30px;
+}
+.conatiner .takeAway .takeAway_phot{
+    padding-left: 150px;
+}
+
+/* fourth section ended */
+
+/* fiveth setion started */
+.conatiner .desinger{
+  margin-top: 213px;
+  text-align: center;
+}
+.conatiner .desinger h3{
+    color: #DC780B;
+    font-family: Roboto;
+    font-size: 16px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.conatiner .desinger h2{
+    color: #000;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    padding-top: 12px;
+}
+.conatiner .desinger .desing_text{
+    color: #000;
+   font-family: Roboto;
+   font-size: 16px;
+   opacity: 0.7;
+   padding-top: 23px;
+}
+.conatiner .desinger .desinger_img{
+    margin-top: 73px;
+}
+.conatiner .desinger .desinger_img img{
+    border-radius: 50%  ;
+    
+}
+.conatiner .desinger p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    padding-top: 41px;
+}
+.conatiner .desinger .desinger_stars{
+    padding-top: 23px;
+}
+.conatiner .desinger  h4{
+    color: #000;
+   font-family: Roboto;
+   font-size: 16px;
+   padding-top: 32px;
+}
+.conatiner .desinger p{
+    color: #000;
+font-family: Roboto;
+font-size: 12px;
+opacity: 0.7;
+}
+/* fiveth section ended */
+
+/* sixth setion started */
+.conatiner .contact{
+    width: 1440px;
+height: 448px;
+background: #deccb9;
+text-align: center;
+}
+.conatiner .contact h3{
+    padding-top: 115px;
+    color: #DC780B;
+    font-family: Roboto;
+    font-size: 16px;
+}
+.conatiner.contact h2{
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    padding-top: 15px;
+}
+.conatiner .contact .contact_btn{
+    margin-top: 46px;
+
+}
+.conatiner .contact .contact_btn #message{
+     border-radius: 10px;
+background: #FFF;
+ width: 594px;
+    height: 75px;
+    border: none;
+  
+}
+.conatiner .contact .contact_btn button{
+    width: 156px;
+height: 75px;
+border-radius: 10px;
+background: #DC780B;
+border: none;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+}
+.conatiner .contact .contact_btn button:active{
+    background-color: #FFF;
+    color: #DC780B;
+    border: #DC780B;
+}
+
+/* sixth setion ended */
+
+/* footer started */
+ footer{
+height: 100%;
+background: #252525;
+display: flex;
+padding-bottom: 104px;
+}
+ footer img{
+    margin-left: 150px;
+    margin-top: 137px;
+}
+/* first table started */
+ footer .firsTable ul{
+    margin-top: 25px;
+}
+ footer .firsTable a{
+    margin-left: 150px;
+    color: #FFF;
+    opacity: 0.7;
+}
+ footer .firsTable li{
+    padding-top: 17px;
+}
+/* first table ended */
+
+/* second table started */
+ footer .secondTable{
+    margin-top: 137px;
+    margin-left: 30px;
+}
+ footer .secondTable {
+    margin-top: 137px;
+    padding-left: 50px;
+}
+ footer .secondTable h3{
+    color: #FFF;
+font-family: Philosopher;
+font-size: 18px;
+}
+ footer .secondTable ul{
+    margin-top: 26px;
+}
+ footer .secondTable ul li a{
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+opacity: 0.7;
+
+}
+ footer .seconddTable ul li{
+    margin-top: 30px;
+}
+/* second table ended */
+
+/* third table started */
+ footer .thirdTable {
+    margin-left: 150px;
+    margin-top: 137px;
+}
+ footer .thirdTable h3{
+    color: #FFF;
+font-family: Philosopher;
+font-size: 18px;
+margin-left: 50px;
+}
+ footer .thirdTable ul{
+    margin-top: 26px;
+    margin-left: 50px;
+}
+ footer .thirdTable ul li{
+    padding-top: 26px;
+}
+ footer .thirdTable ul li a{
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+opacity: 0.7;
+}
+/* third table ended */
+
+/* fourth table started */
+footer .fourthTable{
+    margin-top: 137px;
+    margin-left: 100px;
+}
+footer .fourthTable h3{
+    color: #FFF;
+font-family: Philosopher;
+font-size: 18px;
+}
