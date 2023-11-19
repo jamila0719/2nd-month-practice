@@ -322,7 +322,7 @@ color: #DC780B;
 font-family: Roboto;
 font-size: 16px;
 margin-top: 200px;
-margin-left: 649px;
+margin-left: 500px;
 }
 .learnMore button:active{
     background-color:#DC780B;
@@ -573,4 +573,22 @@ footer .fourthTable h3{
     color: #FFF;
 font-family: Philosopher;
 font-size: 18px;
+margin-left: 25px;
+}
+footer .fourthTable ul{
+    margin-top: 26px;
+    margin-left: 31px;
+}
+footer .fourthTable ul li{
+    margin-top: 26px;
+}
+footer .fourthTable ul li a{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    opacity: 0.7;
+}
+footer .fourthTable .footerLogos{
+    display: flex;
+   
 }
